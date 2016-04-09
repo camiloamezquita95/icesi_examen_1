@@ -14,8 +14,8 @@ public class Programa {
 
         Puente puente= new Puente();
 
-        CochesDcha vehiculosDcha= new CochesDcha(puente);
-        CochesIzquda vehiculosIzqda= new CochesIzquda(puente);
+        CochesDer vehiculosDcha= new CochesDer(puente);
+        CochesIzq vehiculosIzqda= new CochesIzq(puente);
         SemaforoPuente semaforo= new SemaforoPuente(puente);
         
         vehiculosDcha.start();
